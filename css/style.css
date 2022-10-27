@@ -414,11 +414,11 @@ h6 {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
-}
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);}
 
 .bg-soft-dark {
-  background-color: rgba(52, 58, 64, 0.2) !important;
+  background-color: rgb(2,0,36) !important;
 }
 
 .text-dark {
@@ -440,7 +440,7 @@ h6 {
 }
 
 .btn-outline-dark {
-  color: #343a40;
+  color: #197697;
   border-color: #343a40;
 }
 
@@ -645,14 +645,14 @@ h6 {
   width: 100%;
   height: 100%;
   top: 0;
-  background-color: rgba(52, 58, 64, 0.7);
+  background-color: rgba(76, 151, 226, 0.7);
 }
 
 .bg-overlay-gradient {
   opacity: 0.7;
-  background: -webkit-gradient(linear, right top, left top, from(#251B37), to(#372948));
-  background: linear-gradient(to left, #251B37, #372948);
-}
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);}
+
 
 .video-btn {
   color: #ffffff !important;
@@ -881,7 +881,7 @@ h6 {
 }
 
 .facts-box h2 {
-  color: #767D8E;
+  color: #000000;
 }
 
 .facts-box p {
@@ -1159,7 +1159,6 @@ textarea.form-control {
 *******************/
 .footer {
   padding: 20px 0px;
-  border-top: 1px solid #3B3B40;
 }
 
 .copyright {
@@ -1202,7 +1201,7 @@ textarea.form-control {
 .footer-one-alt {
   margin-top: 40px;
   padding: 20px 0px;
-  border-top: 1px solid #3B3B40;
+  border-top: 0px solid #2121da;
 }
 
 .footer-one-alt .copyright {
@@ -1222,7 +1221,7 @@ textarea.form-control {
 .footer-social-one a {
   border-radius: 50%;
   text-align: center;
-  background-color: #3d444b;
+  background-color: #3d62e0;
   width: 34px;
   display: block;
   height: 34px;
